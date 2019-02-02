@@ -1,5 +1,185 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.ajedrez"
+	name="Ajedrez"
+	version="1.0"
+	provider-name="ibernet">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Canales Youtube de ajedrez</summary>
+    <description lang="es">Canales dedicados al ajedrez .</description>
+    <platform>all</platform>
+        <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+		</assets>
+       </extension>
+</addon>
+
+<addon id="plugin.video.cine" name="Cine" version="1.0.70" provider-name="Topo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Cine</summary>
+    <description>Addon de Cine</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cristalazul"
+       name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
+       version="0.0.4"
+       provider-name="PICAPAU, LOURDES, SUPERTOPO">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+   <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>creado por picapau, lourdes, supertopo y luisma</summary>
+    <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
+	</description>
+    <platform>all</platform>
+	  <assets>
+		<icon>icon.gif</icon>
+	  </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Lilianime"
+       name="[COLOR pink]Lili anime[/COLOR]"
+       version="0.0.5"
+       provider-name="Lis">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube"  />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video </provides>
+  </extension>
+
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por Lis</summary>
+    <description>Se recomienda supervisión parental para acceder directamente a la sección infantil.Sección +16 años con escenas de desnudez fuerte y explícita, escenas fuertes,imagenes muy intensas y sangre en mucha cantidad.Addon dedicado a los  pequeñ@s y adolescentes de la familia Festa.Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mundrone"
+       name="[COLOR silver]*[/COLOR][COLOR blue]MunDrone[/COLOR][COLOR silver]*[/COLOR]"
+       version="0.0.4"
+       provider-name="Creado por David">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube"  />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/dpm1001/repomundrone/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/dpm1001/repomundrone/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/dpm1001/repomundrone/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por David con la ayuda de Lourdes, y por supuesto a @kodiacademy</summary>
+    <description>Se irá actualizando contenido. Si quieres que tus vídeos aparezcan en MunDrone, envíalo a addonmundrone@gmail.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sport365.live" name="Sport365" version="1.0" provider-name="GalAnonim">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.cronxbmc" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sport365</summary>
+    <description lang="en">Sport365</description>
+    <disclaimer lang="en">fork en castellano del addon sport365, todos los creditos a su creador GalAnonim,traducido por picapau</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.png</fanart>
+  </assets>
+  <news>
+   Pierwsza wersja :)
+  </news>
+  </extension>
+</addon>
+
 <addon id="repository.repofamilyleia" name="[COLOR aqua]WIZARD LEIA[/COLOR] [COLOR royalblue]REPO[/COLOR]" version="2.0" provider-name="LouFesta y Supertopo">
     <extension point="xbmc.addon.repository" name="repofamilyleia">
         <info>https://raw.githubusercontent.com/Leia18/repofamilyleia/master/Repositorio/addons.xml</info>
