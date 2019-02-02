@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.aerobic"
+       name="[COLOR pink]Aerobic[/COLOR]"
+       version="0.0.2"
+       provider-name="Juldelju">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por Juldelju</summary>
+    <description>Addons dedicado para disfrutar haciendo ejercicio con las coreografias de aerobic/step,zumba,just dande y un poquito de relajacion.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ajedrez"
 	name="Ajedrez"
 	version="1.0"
@@ -116,6 +146,70 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.Manuart"
+       name="[COLOR coral]MANUART[/COLOR]"
+       version="0.0.2"
+       provider-name="AnaM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube"  />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>AnaM</summary>
+    <description>La creatividad no consiste en una nueva manera, sino en una nueva visión. La creatividad es la inteligencia divirtiéndose.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mundocine"
+       name="[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]"
+       version="1.0.1"
+       provider-name="Toni clasico">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]</summary>
+    <description lang="en">[COLOR grey]Vive todo el cine clasico.[/COLOR].</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+
+
+</addon>
+
 <addon id="plugin.video.mundrone"
        name="[COLOR silver]*[/COLOR][COLOR blue]MunDrone[/COLOR][COLOR silver]*[/COLOR]"
        version="0.0.4"
@@ -177,6 +271,71 @@
   <news>
    Pierwsza wersja :)
   </news>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="2018.08.18"
+  name="SportsDevil"
+  provider-name="SportsDevil">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
+   <import addon="script.module.requests" />
+   <import addon="plugin.video.f4mTester" />
+   <import addon="script.module.slproxy" />
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SportsDevil</summary>
+    <description lang="en">[I]There can only be one.[/I][CR][CR]Unofficial Kodi Addon.</description>
+    <disclaimer lang="en">There can only be one.</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Tvchopo.Kids"
+       name="[COLOR pink]Tvchopo Kids[/COLOR]"
+       version="2.0.4"
+       provider-name="Tvchopo team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+ <extension point="xbmc.addon.repository" name="tvchoco Jose">
+        <info>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/elchocolate/repotvchopo/master/Repositorio/</datadir>
+    </extension>
+
+ <extension point="xbmc.addon.metadata">
+    <summary>Tvchopo</summary>
+    <description>Dedicado a los más pequeños de la familia chopera.</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
