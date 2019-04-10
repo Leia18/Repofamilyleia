@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.1x2" name="1x2" version="0.0.9" provider-name="By Teco">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.liveresolver"  />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="es">1x2: Es un Fork del Addon La Liga</description>
+        <disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.69"
        name="[COLOR none]69 xxx[/COLOR]"
        version="2.0.69"
@@ -89,6 +104,27 @@
         <fanart>fanart.jpg</fanart>
 		</assets>
        </extension>
+</addon>
+
+<addon id="plugin.video.cine" name="Cine" version="1.0.74" provider-name="Topo">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Cine</summary>
+    <description>Addon de Cine</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
 </addon>
 
 <addon id="plugin.video.cristalazul"
