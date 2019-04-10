@@ -412,6 +412,24 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.musicando" name="Musicando" version="0.0.6" provider-name="Catoal">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="es">Los Mejores Videos de YouTube. </summary>
+    <description lang="es">Los videos mas destacados de la red.</description>
+    <disclaimer lang="es">
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.r2d2"
        name="[COLOR yellow]R[/COLOR][COLOR cyan]2[/COLOR][COLOR lime]D[/COLOR][COLOR orange]2[/COLOR]"
        version="0.0.5"
