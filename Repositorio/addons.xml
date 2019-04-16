@@ -384,7 +384,7 @@
 
 <addon id="plugin.video.mundocine"
        name="[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]"
-       version="1.0.1"
+       version="1.0.4"
        provider-name="Toni clasico">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -409,11 +409,11 @@
     <summary lang="en">[COLOR white]Mundo[/COLOR] [COLOR grey]Cine[/COLOR]</summary>
     <description lang="en">[COLOR grey]Vive todo el cine clasico.[/COLOR].</description>
     <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
+	  <assets>
+		<icon>icon.gif</icon>
+		<fanart>fanart.jpg</fanart>
+	  </assets>
   </extension>
-
-
 </addon>
 
 <addon id="plugin.video.mundrone"
@@ -605,7 +605,7 @@
     </extension>
 </addon>
 
-<addon id="resource.leiachecker" name="LEIA [COLOR cyan]Checker[/COLOR]" version="1.0" provider-name="Lou y Supertopo">
+<addon id="resource.leiachecker" name="LEIA [COLOR cyan]Checker[/COLOR]" version="1.1" provider-name="Lou y Supertopo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
