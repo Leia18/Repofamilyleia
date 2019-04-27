@@ -324,7 +324,7 @@
 
 <addon id="plugin.video.Magyck"
        name="[B][COLOR greenyellow]Magyck[/COLOR][/B]"
-       version="[COLOR yellow]1.16.9[/COLOR]"
+       version="[COLOR yellow]1.19.0[/COLOR]"
        provider-name="[COLOR orange]Jose[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -349,6 +349,9 @@
     <summary>[COLOR orange]JoSe[/COLOR]</summary>
     <description>[B]Addon [COLOR greenyellow]Magyck 2019[/B][/COLOR]</description>
     <platform>all</platform>
+<assets>
+<icon>icon.gif</icon>
+</assets>
   </extension>
 </addon>
 
