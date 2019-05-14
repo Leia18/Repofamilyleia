@@ -2,7 +2,7 @@
 <addon
 	id="context.videotecaplus"
 	name="Videoteca Plus"
-	version="0.0.3"
+	version="0.0.4"
 	provider-name="VPlus">
   <requires>
 	<import addon="xbmc.python" version="2.25.0"/>
