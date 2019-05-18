@@ -2,7 +2,7 @@
 <addon
 	id="context.videotecakodileia"
 	name="Videoteca KodiLeia"
-	version="0.0.2"
+	version="0.0.1"
 	provider-name="VPlus">
   <requires>
 	<import addon="xbmc.python" version="2.25.0"/>
@@ -28,8 +28,7 @@
   <extension point="kodi.addon.metadata">
     <platform>all</platform>
       <summary lang="es">Videoteca KodiLeia genera un STRM de cualquier película o serie</summary>
-    <description lang="es">Agradecer a Taifxx por su trabajo y dedicación con su addon addtolib de el cual se a sacado este proyecto, Videoteca KodiLeia Agrega peliculas y series a tu libreria de Kodi. Creando un STRM para cada contenido.</description>
-    <license>GNU GENERAL PUBLIC LICENSE V3</license>
+    <description lang="es">Videoteca KodiLeia Agrega peliculas y series a tu libreria de Kodi. Creando un STRM para cada contenido.</description>
     <forum></forum>
     <source></source>
   </extension>
