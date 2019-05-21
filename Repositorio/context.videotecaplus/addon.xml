@@ -2,7 +2,7 @@
 <addon
 	id="context.videotecaplus"
 	name="Videoteca Plus"
-	version="0.0.6-4"
+	version="0.0.6-6"
 	provider-name="VPlus">
   <requires>
 	<import addon="xbmc.python" version="2.25.0"/>
@@ -13,11 +13,11 @@
 				<label>$ADDON[context.videotecaplus 32000]</label>
 				<visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
 			</item>
-			<item library="remove.py">
+			<item library="updater.py">
 				<label>$ADDON[context.videotecaplus 33000]</label>
 				<visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
 			</item>
-            <item library="borrador.py">
+            <item library="remove.py">
                 <label>$ADDON[context.videotecaplus 34000]</label>
                 <visible>Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)|!IsEmpty(ListItem.Genre)</visible>
             </item>
