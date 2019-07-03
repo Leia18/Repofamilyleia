@@ -89,21 +89,6 @@ Telegram: t.me/kodi18</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.1x2" name="1x2" version="0.0.17" provider-name="By Teco">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
-        <import addon="script.module.liveresolver" version="0.1.50"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <description lang="es">1x2: Es un Fork del Addon La Liga</description>
-        <disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="plugin.video.69"
        name="[COLOR none]69 xxx[/COLOR]"
        version="2.0.69"
