@@ -89,22 +89,26 @@ Telegram: t.me/kodi18</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.1x2" name="1x2" version="0.0.20" provider-name="By Teco">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
-        <import addon="script.module.liveresolver" version="0.1.50"/>
-        <import addon="script.module.beautifulsoup" version="3.2.1"/>
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.requests" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <description lang="es">1x2: Es un Fork del Addon La Liga</description>
-        <disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
-        <platform>all</platform>
-    </extension>
+<addon id="plugin.video.1x2"
+  version="1.0.3"
+  name="1x2"
+  provider-name="By Teco">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="es"></summary>
+    <description lang="es">Los videos son proporcionados por personas ... en línea ... en algún lugar...</description>
+    <disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+    <assets>
+      <icon>icon.gif</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.69"
@@ -739,7 +743,7 @@ Telegram: t.me/kodi18</description>
   </extension>
 </addon>
 
-<addon id="script.plexus.patcher" name="Plexus Patcher" version="1.0.5" provider-name="Coeman76">
+<addon id="script.plexus.patcher" name="Plexus Patcher" version="1.0.6" provider-name="Coeman76">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="program.plexus" />
