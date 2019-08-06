@@ -607,8 +607,8 @@ Telegram: t.me/kodi18</description>
 
 <addon id="plugin.video.sinbarreras"
        name="[COLOR chartreuse]SIN BARRERAS[/COLOR]"
-       version="1.4"
-       provider-name="Team Festa">
+       version="1.6"
+       provider-name="SinBarreras">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -635,7 +635,7 @@ Telegram: t.me/kodi18</description>
     </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>creado por Team Festa</summary>
+    <summary>creado por Team Festa y Tvchopo</summary>
     <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
 	</description>
     <platform>all</platform>
