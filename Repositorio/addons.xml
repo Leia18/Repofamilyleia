@@ -72,7 +72,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.kodileiawizard" name="KODILEIA [COLOR gold]WIZARDS[/COLOR]" version="1.6" provider-name="Supertopo y Lou">
+<addon id="plugin.program.kodileiawizard" name="KODILEIA [COLOR gold]WIZARDS[/COLOR]" version="1.8" provider-name="Supertopo,Lou,JuanS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
