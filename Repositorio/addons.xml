@@ -90,7 +90,7 @@ Telegram: t.me/kodi18</description>
 </addon>
 
 <addon id="plugin.video.1x2"
-  version="1.0.15"
+  version="1.0.18"
   name="1x2"
   provider-name="Team NS">
   <requires>
@@ -226,8 +226,8 @@ Telegram: t.me/kodi18</description>
 
 <addon id="plugin.video.cristalazul"
        name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.4"
-       provider-name="PICAPAU, LOURDES, SUPERTOPO">
+       version="0.0.5"
+       provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
