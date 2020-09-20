@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.festa"
-       name="[COLOR aqua]*[/COLOR][COLOR lime]FESTA[/COLOR][COLOR aqua]*[/COLOR]" 
+       name="[B][/B][COLOR deeppink]FESTA[/COLOR]" 
        version="0.0.12"
        provider-name="Lou,Picapau y el equipo de FESTA">
  <requires>
